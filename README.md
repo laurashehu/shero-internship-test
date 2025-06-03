@@ -52,7 +52,9 @@ Open the `index.html` file in your preferred browser to view the site live.
 ![image](https://github.com/user-attachments/assets/bd0fc370-0c07-4555-a595-213ff3e257f7)
 
 **Smaller Screen**
+**1)**
 ![image](https://github.com/user-attachments/assets/95786a70-a828-4f5c-b1e3-3fa2c0d829d4)
+**2)**
 ![image](https://github.com/user-attachments/assets/c905b469-ed7f-48df-9527-23400f97c97d)
 
 
