@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shero Internship Test</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+
+</head>
+<body>
+    <main>
+  <!-- hero section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Add color to your <br>masterpiece</h1>
+      <a href="#" class="btn-outline">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- image grid section -->
+  <section class="image-grid-section">
+    <div class="grid-container">
+      <img src="images/placeholder1.png" alt="Product 1">
+      <img src="images/placeholder2.png" alt="Product 2">
+      <img src="images/placeholder3.png" alt="Product 3">
+    </div>
+  </section>
+
+
+  <!-- retail store location section -->
+  <section class="retail-location-section">
+    <div class="retail-flex">
+      <div class="retail-text">
+        <h3>Retail Store Location</h3>
+        <h1>Buy our products in more than 600 retail stores worldwide</h1>
+        <a href="#" class="btn-outline dark">Search retail store</a>
+      </div>
+      <div class="retail-image">
+        <img src="images/map.png" alt="World Map">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- bottom section with carousel -->
+<section class="featured-products">
+  <h2>FEATURED PRODUCTS</h2>
+
+  <div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide">
+          <img src="images/placeholder1.png" alt="PRODUCT A" />
+          <p class="product-name">PRODUCT A</p>
+        </li>
+        <li class="glide__slide">
+          <img src="images/placeholder2.png" alt="PRODUCT B" />
+          <p class="product-name">PRODUCT B</p>
+        </li>
+        <li class="glide__slide">
+          <img src="images/placeholder3.png" alt="PRODUCT C" />
+          <p class="product-name">PRODUCT C</p>
+        </li>
+        <li class="glide__slide">
+          <img src="images/placeholder1.png" alt="PRODUCT D" />
+          <p class="product-name">PRODUCT D</p>
+        </li>
+        <li class="glide__slide">
+          <img src="images/placeholder2.png" alt="PRODUCT E" />
+          <p class="product-name">PRODUCT E</p>
+        </li>
+        <li class="glide__slide">
+          <img src="images/placeholder3.png" alt="PRODUCT F" />
+          <p class="product-name">PRODUCT F</p>
+        </li>
+        <li class="glide__slide">
+          <img src="images/placeholder1.png" alt="PRODUCT G" />
+          <p class="product-name">PRODUCT G</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Navigation arrows -->
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&#10094;</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="carousel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+
+   </main>
+</body>
+</html>
