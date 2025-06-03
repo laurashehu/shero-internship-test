@@ -281,4 +281,10 @@ body {
     font-size: 1.2rem;
     padding: 8px 14px;
   }
+
+  
+  .btn-outline.dark {
+    display: inline-block;  /* keep inline-block for width control */
+    margin: 15px auto 0 auto;
+  }
 }
